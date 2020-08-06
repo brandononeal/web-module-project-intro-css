@@ -1,5 +1,5 @@
 * {
-
+    border: 1px solid gray;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
 }
@@ -13,21 +13,39 @@ h1, h2 {
 .button1 {
     color: white;
     background-color: #FF764E;
-    border-radius: 10%;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.button1:hover {
+    background-color: silver;
+    color: black;
 }
 
 .button2 {
     margin-left: 5%;
     color: white;
     background-color: #5ED3EB;
-    border-radius: 10%;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.button2:hover {
+    background-color: silver;
+    color: black;
 }
 
 .button3 {
     margin-left: 5%;
     color: white;
     background-color: #FFCD69;
-    border-radius: 10%;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.button3:hover {
+    background-color: silver;
+    color: black;
 }
 
 .always-open {
@@ -39,6 +57,12 @@ h1, h2 {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.header-img-div {
+    padding-top: 50px;
 }
 
 .header-div h1 {
@@ -84,6 +108,7 @@ footer {
 }
 
 .footer-img {
+    object-fit: cover;
     height: 200px;
-    width: 800px;
+    width: 100%;
 }
